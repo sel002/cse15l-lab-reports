@@ -1,7 +1,7 @@
 # Week 1 Lab Report
 * Installing VS code
-  * Opened Lab instruction page in the CSE 15L course website and then navigated to website to download the Visual Studio Code.
-  * Used UCSD student account to download VS code for free for 6 months.
+  ** Opened Lab instruction page in the CSE 15L course website and then navigated to website to download the Visual Studio Code.
+  ** Used UCSD student account to download VS code for free for 6 months.
 ![Image](VScode.png)
 
 ---
