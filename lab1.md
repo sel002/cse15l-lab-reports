@@ -24,7 +24,10 @@
    * The command "ls (directory)" lists the files and sub-directories in (directory).
    * The command "cp" allows us to copy the file (ex. txt file) from public or other directories.
    * The command "cat" prints out the content of the file     
-  * Could see other course accounts in CSE 15 Lab submitting "ls -lat" command.
+   * Could see other course accounts in CSE 15 Lab submitting "ls -lat" command.
+   *  Figured out the current working directory by using pwd command line.
+
+**SCREENSHOT on the NEXT PAGE**
+
   * ![Image](Commands.png)
-  * Figured out the current working directory by using pwd command line.
 
