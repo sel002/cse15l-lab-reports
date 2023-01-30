@@ -1,7 +1,7 @@
 # Week 1 Lab Report
 * Installing VS code
-  ** Opened Lab instruction page in the CSE 15L course website and then navigated to website to download the Visual Studio Code.
-  ** Used UCSD student account to download VS code for free for 6 months.
+  * Opened Lab instruction page in the CSE 15L course website and then navigated to website to download the Visual Studio Code.
+  * Used UCSD student account to download VS code for free for 6 months.
 ![Image](VScode.png)
 
 ---
@@ -17,10 +17,10 @@
 
 * Trying some commands
   * Tried cd, ls -lat, ls -a, pwd, ls, ls /home/linux/ieng6/cs15lwi23 commands.
-   * The command "cd" is used to change current directory, it "cd .." directs to the parent directory of the current directory.
-   * The command "pwd" prints the full path of the current directory.
-   * The command "ls" lists the files and sub-directories in the current directory.
-    * hidden files and directories can also be listed with the commmand "ls -a".    
+    * The command "cd" is used to change current directory, it "cd .." directs to the parent directory of the current directory.
+    * The command "pwd" prints the full path of the current directory.
+    * The command "ls" lists the files and sub-directories in the current directory.
+      * hidden files and directories can also be listed with the commmand "ls -a".    
   * Could see other course accounts in CSE 15 Lab submitting ls /home/linux/ieng6/cs15lwi23 command.
   * ![Image](Commands.png)
   * Figured out the current working directory by using pwd command line.
