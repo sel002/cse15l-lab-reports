@@ -23,10 +23,33 @@ written_2/travel_guides/berlitz1/HandRHawaii.txt:        outdoor lounge for suns
     * grep -i "RoCKHousEHOtel" written_2/*/*/*.txt
       * Outputs
         * written_2/travel_guides/berlitz1/HandRJamaica.txt:        rockhousehotel.com>. Commanding a rocky promontory in West End with
-  * grep -w
-    * It will search content for full string, not the sub-string.
+  * grep -wl
+    * It will search content for full string, not the sub-string. And then prints out the name of the file contains content.
+    * grep -wl "Joan, Palma" written_2/*/*/*.txt
+      * Outputs
+        * written_2/travel_guides/berlitz1/WhereToMallorca.txt
+    * grep -wl "Victoria Harbor" written_2/*/*/*.txt
+      * Outputs
+        * written_2/travel_guides/berlitz1/IntroHongKong.txt
+        * written_2/travel_guides/berlitz1/WhereToHongKong.txt
   * grep -m #
-    * It search and print the content # times then it stops. 
+    * It search and print the content # times per file then it stops. 
+    * grep -m 2 "Hong Kong Island" written_2/*/*/*.txt
+      * Outputs
+        * written_2/travel_guides/berlitz1/HistoryHongKong.txt:        Hong Kong Island formally became a British possession two
+written_2/travel_guides/berlitz1/IntroHongKong.txt:        architecture are on Hong Kong Island. Across Victoria Harbor, connected
+written_2/travel_guides/berlitz1/WhatToHongKong.txt:        Kowloon, especially along Nathan Road; Central on Hong Kong Island,
+written_2/travel_guides/berlitz1/WhatToHongKong.txt:        changing rooms, toilets, and snack stands. On Hong Kong Island, Repulse
+written_2/travel_guides/berlitz1/WhereToHongKong.txt:        begin across Victoria Harbor on Hong Kong Island, where the city was
+written_2/travel_guides/berlitz1/WhereToHongKong.txt:        soaring skyline of Hong Kong Island draws nearer.
+    * grep -m 2 "Upper Egypt" written_2/*/*/*.txt
+      * Outputs
+        * written_2/travel_guides/berlitz1/HistoryEgypt.txt:        b.c. that King Narmer of Upper Egypt conquered Lower Egypt. Around 3100
+written_2/travel_guides/berlitz1/HistoryEgypt.txt:        in Heliopolis in Lower Egypt and Thebes (modern Luxor) in Upper Egypt.
+written_2/travel_guides/berlitz1/WhatToEgypt.txt:        In Upper Egypt, Nubian floorshows have a different
+written_2/travel_guides/berlitz1/WhatToEgypt.txt:        Upper Egypt. Always study any item carefully before purchase.
+written_2/travel_guides/berlitz1/WhereToEgypt.txt:        in your vacation along the Nile Valley in Upper Egypt.
+written_2/travel_guides/berlitz1/WhereToEgypt.txt:        Upper Egypt
   * Resources
     * https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/
     * https://www.shayanderson.com/linux/grep-exclude-directory.htm
