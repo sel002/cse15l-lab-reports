@@ -17,9 +17,12 @@
     * It will ignore the case. 
     * grep -i "HaLekULani" written_2/*/*/*.txt
       * Outputs
-      * written_2/travel_guides/berlitz1/HandRHawaii.txt:        Halekulani $$$$ 2199 Kalia Road, Honolulu, HI 96815; Tel.
+        * written_2/travel_guides/berlitz1/HandRHawaii.txt:        Halekulani $$$$ 2199 Kalia Road, Honolulu, HI 96815; Tel.
 written_2/travel_guides/berlitz1/HandRHawaii.txt:        <www.halekulani.com>. Very large rooms, most facing the ocean,
 written_2/travel_guides/berlitz1/HandRHawaii.txt:        outdoor lounge for sunset drinks, Halekulani is a complete resort. 454
+    * grep -i "RoCKHousEHOtel" written_2/*/*/*.txt
+      * Outputs
+        * written_2/travel_guides/berlitz1/HandRJamaica.txt:        rockhousehotel.com>. Commanding a rocky promontory in West End with
   * grep -w
     * It will search content for full string, not the sub-string.
   * grep -m #
