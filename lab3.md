@@ -2,7 +2,7 @@
 * Researching Commands (choose "grep" command)
   * grep -rl --exclude-dir
     * It will exclude subdirectory or subdirectories and then search content in the directory. And then prints out the name of the file contains content.
-Example 1)
+1) Example 1
   * It searches "autonomy" in the file which is not located in travel_guides, Fletcher, Berk directories.
     
 
