@@ -7,6 +7,7 @@
 `grep -rl --exclude-dir="written_2/travel_guides" --exclude-dir="written_2/non-fiction/OUP/Fletcher" --exclude-dir="written_2/non-fiction/OUP/Berk" "autonomy" written_2`
     
       * Outputs 
+
 ```
 # Outputs
 written_2/non-fiction/OUP/Abernathy/ch2.txt
@@ -14,8 +15,8 @@ written_2/non-fiction/OUP/Abernathy/ch3.txt
 written_2/non-fiction/OUP/Castro/chP.txt
 ```
 
-      * It searches "autonomy" in the file which is not located in travel_guides, Fletcher, Berk directories.  
-    * grep -rl --exclude-dir="written_2/travel_guides" "Hong Kong" written_2 
+        * It searches "autonomy" in the file which is not located in travel_guides, Fletcher, Berk directories.   
+  * grep -rl --exclude-dir="written_2/travel_guides" "Hong Kong" written_2 
       * Outputs
         * written_2/non-fiction/OUP/Abernathy/ch1.txt
         * written_2/non-fiction/OUP/Abernathy/ch15.txt
