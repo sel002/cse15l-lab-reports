@@ -28,7 +28,7 @@ written_2/non-fiction/OUP/Abernathy/ch15.txt
 ```
       
 2) grep -i
-    * It will ignore the case. 
+  * It will ignore the case. 
 
 * Example 1
 
@@ -53,7 +53,7 @@ written_2/travel_guides/berlitz1/HandRJamaica.txt: rockhousehotel.com>. Commandi
 ```
 
 3) grep -wl
-    * It will search content for full string, not the sub-string. And then prints out the name of the file contains content.
+  * It will search content for full string, not the sub-string. And then prints out the name of the file contains content.
 
 * Example 1
 
@@ -77,7 +77,7 @@ written_2/travel_guides/berlitz1/WhereToHongKong.txt
 ```
 
 4) grep -m #
-    * It search and print the content # times per file then it stops. 
+  * It search and print the content # times per file then it stops. 
 
 * Example 1
 
