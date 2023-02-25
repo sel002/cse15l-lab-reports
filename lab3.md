@@ -14,9 +14,9 @@ written_2/non-fiction/OUP/Abernathy/ch2.txt
 written_2/non-fiction/OUP/Abernathy/ch3.txt
 written_2/non-fiction/OUP/Castro/chP.txt
 ```
-
       
 2) Example 2
+  * It searches "Hong Kong" from only non-fiction directory but not travel_guides directory.
 
 ```
 # Input
@@ -27,7 +27,7 @@ written_2/non-fiction/OUP/Abernathy/ch1.txt
 written_2/non-fiction/OUP/Abernathy/ch15.txt
 ```
 
-      * It searches "Hong Kong" from only non-fiction directory but not travel_guides directory.
+      
  
   * grep -i
     * It will ignore the case. 
