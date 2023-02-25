@@ -3,12 +3,10 @@
   * grep -rl --exclude-dir
     * It will exclude subdirectory or subdirectories and then search content in the directory. And then prints out the name of the file contains content.
     * Example 1
-      * Input
-`grep -rl --exclude-dir="written_2/travel_guides" --exclude-dir="written_2/non-fiction/OUP/Fletcher" --exclude-dir="written_2/non-fiction/OUP/Berk" "autonomy" written_2`
-    
-      * Outputs 
 
 ```
+# Input
+grep -rl --exclude-dir="written_2/travel_guides" --exclude-dir="written_2/non-fiction/OUP/Fletcher" --exclude-dir="written_2/non-fiction/OUP/Berk" "autonomy" written_2
 # Outputs
 written_2/non-fiction/OUP/Abernathy/ch2.txt
 written_2/non-fiction/OUP/Abernathy/ch3.txt
