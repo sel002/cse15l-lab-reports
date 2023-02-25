@@ -14,12 +14,21 @@ written_2/non-fiction/OUP/Abernathy/ch3.txt
 written_2/non-fiction/OUP/Castro/chP.txt
 ```
 
-    * It searches "autonomy" in the file which is not located in travel_guides, Fletcher, Berk directories.   
-  * grep -rl --exclude-dir="written_2/travel_guides" "Hong Kong" written_2 
-      * Outputs
-        * written_2/non-fiction/OUP/Abernathy/ch1.txt
-        * written_2/non-fiction/OUP/Abernathy/ch15.txt
+      * It searches "autonomy" in the file which is not located in travel_guides, Fletcher, Berk directories.
+      
+    * Example 2
+
+```
+# Input
+grep -rl --exclude-dir="written_2/travel_guides" "Hong Kong" written_2
+
+# Outputs
+written_2/non-fiction/OUP/Abernathy/ch1.txt
+written_2/non-fiction/OUP/Abernathy/ch15.txt
+```
+
       * It searches "Hong Kong" from only non-fiction directory but not travel_guides directory.
+      
   * grep -i
     * It will ignore the case. 
     * grep -i "HaLekULani" written_2/*/*/*.txt
