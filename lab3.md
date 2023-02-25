@@ -1,7 +1,7 @@
 # Lab Report 3
-* Researching Commands (choose "grep" command)
-  * grep -rl --exclude-dir
-    * It will exclude subdirectory or subdirectories and then search content in the directory. And then prints out the name of the file contains content.
+## Researching Commands (choose "grep" command)
+* grep -rl --exclude-dir
+  * It will exclude subdirectory or subdirectories and then search content in the directory. And then prints out the name of the file contains content.
 1) Example 1
   * It searches "autonomy" in the file which is not located in travel_guides, Fletcher, Berk directories.
     
@@ -26,9 +26,7 @@ grep -rl --exclude-dir="written_2/travel_guides" "Hong Kong" written_2
 written_2/non-fiction/OUP/Abernathy/ch1.txt
 written_2/non-fiction/OUP/Abernathy/ch15.txt
 ```
-
       
- 
   * grep -i
     * It will ignore the case. 
     * grep -i "HaLekULani" written_2/*/*/*.txt
