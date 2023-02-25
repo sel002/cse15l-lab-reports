@@ -109,6 +109,6 @@ written_2/travel_guides/berlitz1/WhereToEgypt.txt: Upper Egypt
 ```
 
 ## Resources
-[Link] (https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
-[Link] (https://www.shayanderson.com/linux/grep-exclude-directory.htm)
-[Link] (https://www.unix.com/shell-programming-and-scripting/113991-grep-m-option.html)
+[Link1](https://www.thegeekstuff.com/2009/03/15-practical-unix-grep-command-examples/)
+[Link2](https://www.shayanderson.com/linux/grep-exclude-directory.htm)
+[Link3](https://www.unix.com/shell-programming-and-scripting/113991-grep-m-option.html)
