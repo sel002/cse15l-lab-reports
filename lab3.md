@@ -48,7 +48,7 @@ written_2/travel_guides/berlitz1/HandRHawaii.txt: outdoor lounge for sunset drin
 grep -i "RoCKHousEHOtel" written_2/*/*/*.txt
 
 # Outputs
-written_2/travel_guides/berlitz1/HandRJamaica.txt:        rockhousehotel.com>. Commanding a rocky promontory in West End with
+written_2/travel_guides/berlitz1/HandRJamaica.txt: rockhousehotel.com>. Commanding a rocky promontory in West End with
 ```
 
   * grep -wl
