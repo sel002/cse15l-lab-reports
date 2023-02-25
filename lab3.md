@@ -1,8 +1,8 @@
 # Lab Report 3
 ## Researching Commands (choose "grep" command)
-* grep -rl --exclude-dir
+1) grep -rl --exclude-dir
   * It will exclude subdirectory or subdirectories and then search content in the directory. And then prints out the name of the file contains content.
-1) Example 1
+* Example 1
   * It searches "autonomy" in the file which is not located in travel_guides, Fletcher, Berk directories.
     
 ```
@@ -15,7 +15,7 @@ written_2/non-fiction/OUP/Abernathy/ch3.txt
 written_2/non-fiction/OUP/Castro/chP.txt
 ```
       
-2) Example 2
+* Example 2
   * It searches "Hong Kong" from only non-fiction directory but not travel_guides directory.
 
 ```
@@ -27,10 +27,10 @@ written_2/non-fiction/OUP/Abernathy/ch1.txt
 written_2/non-fiction/OUP/Abernathy/ch15.txt
 ```
       
-  * grep -i
+2) grep -i
     * It will ignore the case. 
 
-1) Example 1
+* Example 1
 
 ```
 # Input
@@ -42,7 +42,7 @@ written_2/travel_guides/berlitz1/HandRHawaii.txt: <www.halekulani.com>. Very lar
 written_2/travel_guides/berlitz1/HandRHawaii.txt: outdoor lounge for sunset drinks, Halekulani is a complete resort. 454
 ```
 
-2) Example 2
+* Example 2
 
 ```
 # Input
@@ -52,10 +52,10 @@ grep -i "RoCKHousEHOtel" written_2/*/*/*.txt
 written_2/travel_guides/berlitz1/HandRJamaica.txt: rockhousehotel.com>. Commanding a rocky promontory in West End with
 ```
 
-  * grep -wl
+3) grep -wl
     * It will search content for full string, not the sub-string. And then prints out the name of the file contains content.
 
-1) Example 1
+* Example 1
 
 ```
 # Input
@@ -65,7 +65,7 @@ grep -wl "Joan, Palma" written_2/*/*/*.txt
 written_2/travel_guides/berlitz1/WhereToMallorca.txt
 ```
 
-2) Example 2
+* Example 2
 
 ```
 # Input
@@ -76,10 +76,10 @@ written_2/travel_guides/berlitz1/IntroHongKong.txt
 written_2/travel_guides/berlitz1/WhereToHongKong.txt
 ```
 
-  * grep -m #
+4) grep -m #
     * It search and print the content # times per file then it stops. 
 
-1) Example 1
+* Example 1
 
 ```
 # Input
@@ -94,7 +94,7 @@ written_2/travel_guides/berlitz1/WhereToHongKong.txt: begin across Victoria Harb
 written_2/travel_guides/berlitz1/WhereToHongKong.txt: soaring skyline of Hong Kong Island draws nearer.
 ```
 
-2) Example 2
+* Example 2
 
 ```
 # Input
