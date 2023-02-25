@@ -28,7 +28,7 @@ written_2/non-fiction/OUP/Abernathy/ch15.txt
 ```
 
       * It searches "Hong Kong" from only non-fiction directory but not travel_guides directory.
-      
+      * grep -i      
   * grep -i
     * It will ignore the case. 
     * grep -i "HaLekULani" written_2/*/*/*.txt
