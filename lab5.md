@@ -31,7 +31,7 @@ written_2/travel_guides/berlitz2
 ```
       
 2) find <directory> -maxdepth i -type d
-  * It will find directories listed down i times from the start point which is <directory>.
+  * It will find directories listed down i times from the start point which is the <directory> typed in command line.
 
 * Example 1
 
