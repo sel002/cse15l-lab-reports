@@ -1,6 +1,6 @@
 # Lab Report 5
 ## Researching Commands (choose "find" command)
-1) find <DIRECTORY> -type d
+1) find DIRECTORY -type d
   * It will find directories or subdirectories and then search content in the directory. And then prints out the name of the file contains content.
 * Example 1
     
@@ -30,7 +30,7 @@ written_2/travel_guides/berlitz1
 written_2/travel_guides/berlitz2
 ```
       
-2) find <DIRECTORY> -maxdepth i -type d
+2) find DIRECTORY -maxdepth i -type d
   * It will find directories listed down i times from the start point which is the DIRECTORY typed in command line.
 
 * Example 1
@@ -60,7 +60,7 @@ written_2//travel_guides/berlitz1
 written_2//travel_guides/berlitz2
 ```
 
-3) find <DIRECTORY> -type f
+3) find DIRECTORY -type f
   * It will find all files in the DIRECTORY. "f" means file including such as text files, not considering (sub)directories. 
   * Able to see which specific (sub)directory has the specific file in DIRECTORY
 
@@ -97,7 +97,7 @@ written_2/non-fiction/OUP/Fletcher/ch9.txt
 written_2/non-fiction/OUP/Fletcher/ch10.txt
 ```
 
-4) find <DIRECTORY> -size +(FILE SIZE)
+4) find DIRECTORY -size +(FILE SIZE)
   * It search for the files in DIRECTORY have bigger file size than defined FILE SIZE in command line.
 
 * Example 1
