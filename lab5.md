@@ -1,7 +1,7 @@
 # Lab Report 5
 ## Researching Commands (choose "find" command)
 1) find DIRECTORY -type d
-  * It will find directories or subdirectories and then search content in the directory. And then prints out the name of the file contains content.
+  * It will find directories or subdirectories and then search content in the directory. And then prints out the name of the file contains content
 * Example 1
     
 ```
@@ -31,7 +31,7 @@ written_2/travel_guides/berlitz2
 ```
       
 2) find DIRECTORY -maxdepth i -type d
-  * It will find directories listed down i times from the start point which is the DIRECTORY typed in command line.
+  * It will find directories listed down i times from the start point which is the DIRECTORY typed in command line
 
 * Example 1
 
